@@ -1,0 +1,33 @@
+/* 배경 이미지를 적용합니다. */
+html {
+  background-image: url('image/background.jpg');
+}
+
+/* body 태그의 font 디자인 및 색상, 크기, 마진 값을 적용합니다. */
+body {
+  font-family: 'jua', sans-serif;
+  color: white;
+}
+
+a:link,a:visited,a:active {
+text-decoration : none;
+}
+
+a:hover {
+text-decoration : underline;
+color : red;
+}
+
+TABLE, TD,TR, TH{
+    font-size: 15pt;
+}
+
+p{
+font-size:9pt;
+}
+
+/* form태그의 margin-top을 8rem으로 적용합니다. */
+form {
+  margin-top: 8rem;
+
+}
